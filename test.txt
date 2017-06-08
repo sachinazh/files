@@ -1,0 +1,1 @@
+CREATE FUNCTION MyUpper as 'MyUpper' USING JAR 'hdfs://localhost:50071/hive-udf/hive-1.0-SNAPSHOT.jar';
